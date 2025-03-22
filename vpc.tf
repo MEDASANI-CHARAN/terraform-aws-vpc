@@ -223,7 +223,7 @@ resource "aws_route_table_association" "private" {
   route_table_id = aws_route_table.private.id
 }
 
-## database route table association ##
+## database route table association ## 
 
 resource "aws_route_table_association" "database" {
   count = length(var.database_subnet_cidrs)
