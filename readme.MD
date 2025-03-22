@@ -16,7 +16,7 @@
 * Peering if required for users
 * Routes of peering in requestor & acceptor VPC
 
-## Inputs ##
+## Inputs ## 
 * Project_name (Required): User should mention their project name. type is string.
 * environment (Required): User should mention their environment. type is string.
 * common_tags (Required): User should mention their comon_tags. type is map.

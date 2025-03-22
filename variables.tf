@@ -122,7 +122,7 @@ variable is_peering_required {
   type = bool
   default = "true"
 } 
-
+ 
 variable acceptor_vpc_id {
   type = string
   default = "" 
