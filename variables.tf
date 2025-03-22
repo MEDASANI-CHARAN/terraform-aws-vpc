@@ -120,7 +120,7 @@ variable database_route_table_tags {
 
 variable is_peering_required {
   type = bool
-  default = false
+  default = "false"
 } 
 
 variable acceptor_vpc_id {
