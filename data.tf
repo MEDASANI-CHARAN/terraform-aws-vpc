@@ -12,4 +12,4 @@ data "aws_route_table" "main" {
     name = "association.main"
     values = ["true"]
   }
-}
+} 

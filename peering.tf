@@ -26,7 +26,7 @@ resource "aws_route" "private_peering" {
   destination_cidr_block    = data.aws_vpc.default.cidr_block
   vpc_peering_connection_id = element(aws_vpc_peering_connection.peering[*].id, count.index)
 }
- 
+  
 resource "aws_route" "database_peering" {
   count = var.is_peering_required && var.acceptor_vpc_id == "" ? 1 : 0
   route_table_id            = aws_route_table.database.id

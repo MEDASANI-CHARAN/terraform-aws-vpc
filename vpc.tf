@@ -177,7 +177,7 @@ resource "aws_route_table" "database" {
     {
         Name = "${local.resource_name}-database"
     }
-  )
+  ) 
 }
 
 
